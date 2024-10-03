@@ -1,4 +1,4 @@
-package n01_문자열;
+package _01_string;
 
 import java.util.ArrayList;
 import java.util.Scanner;

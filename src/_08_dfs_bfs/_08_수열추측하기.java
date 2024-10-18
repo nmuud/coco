@@ -9,6 +9,7 @@ public class _08_수열추측하기 {
     int[][] dy = new int[35][35];
 
     public int combi(int n, int r) {
+        if (dy[n][r] > 0) return dy[n][r];
         if (n == r || r == 0) {
             return 1;
         } else {
@@ -29,10 +30,11 @@ public class _08_수열추측하기 {
                 }
             }
         } else {
+            // 1 부터 n 까지의 숫자를 순열로 생성
             for (int i = 1; i <= n; i++) {
                 if (ch[i] == 0) {
                     ch[i] = 1;
-                    p[L] = i;
+                    p[L] = i; // 순열에 i 추가
                     DFS(L + 1, sum + (p[L] * b[L]));
                     ch[i] = 0;
                 }

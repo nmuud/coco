@@ -10,21 +10,28 @@ public class _05_연속된자연수의합 {
         int lt = 0;
         int m = n / 2 + 1;
         int[] arr = new int[m];
+
+        // 배열 초기화
         for (int i = 0; i < m; i++) {
             arr[i] = i + 1;
-            for (int rt = 0; rt < m; rt++) {
-                sum += arr[rt];
+        }
+
+        for (int rt = 0; rt < m; rt++) {
+            sum += arr[rt];
+
+            if (sum == n) {
+                answer++;
+            }
+
+            while (sum >= n) {
+                sum -= arr[lt++];
+
                 if (sum == n) {
                     answer++;
                 }
-                while (sum >= n) {
-                    sum -= arr[lt++];
-                    if (sum == n) {
-                        answer++;
-                    }
-                }
             }
         }
+
 
         return answer;
     }

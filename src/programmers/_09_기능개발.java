@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class StackQ_2_기능개발 {
+public class _09_기능개발 {
     public int[] solution(int[] progresses, int[] speeds) {
 
         int n = progresses.length;
@@ -38,7 +38,7 @@ public class StackQ_2_기능개발 {
     }
 
     public static void main(String[] args) {
-        StackQ_2_기능개발 T = new StackQ_2_기능개발();
+        _09_기능개발 T = new _09_기능개발();
         int[] progresses1 = {93, 30, 55};
         int[] speeds1 = {1, 30, 5};
 

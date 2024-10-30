@@ -3,7 +3,7 @@ package programmers;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class StackQ_1_같은숫자는싫어 {
+public class _08_같은숫자는싫어 {
     public int[] solution(int[] arr) {
         Stack<Integer> stack = new Stack<>();
 
@@ -24,7 +24,7 @@ public class StackQ_1_같은숫자는싫어 {
     }
 
     public static void main(String[] args) {
-        StackQ_1_같은숫자는싫어 T = new StackQ_1_같은숫자는싫어();
+        _08_같은숫자는싫어 T = new _08_같은숫자는싫어();
         int[] arr1 = {1, 1, 3, 3, 0, 1, 1};
         int[] arr2 = {4, 4, 4, 3, 3};
 

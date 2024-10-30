@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Stack;
 
-public class StackQ_3_올바른괄호 {
+public class _10_올바른괄호 {
     boolean solution(String s) {
         boolean answer = true;
         Stack<Character> stack = new Stack<>();
@@ -27,7 +27,7 @@ public class StackQ_3_올바른괄호 {
     }
 
     public static void main(String[] args) {
-        StackQ_3_올바른괄호 T = new StackQ_3_올바른괄호();
+        _10_올바른괄호 T = new _10_올바른괄호();
         String s1 = "()()";
         String s2 = "(())()";
         String s3 = ")()(";

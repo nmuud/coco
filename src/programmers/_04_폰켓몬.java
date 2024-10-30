@@ -3,7 +3,7 @@ package programmers;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class Hash_1_폰켓몬 {
+public class _04_폰켓몬 {
     public int solution(int[] nums) {
         int answer = 0;
         HashMap<Integer, Integer> hashMap = new HashMap<>();
@@ -35,7 +35,7 @@ public class Hash_1_폰켓몬 {
     }
 
     public static void main(String[] args) {
-        Hash_1_폰켓몬 T = new Hash_1_폰켓몬();
+        _04_폰켓몬 T = new _04_폰켓몬();
         int[] nums1 = {3, 1, 2, 3};
         int[] nums2 = {3, 3, 3, 2, 2, 4};
         int[] nums3 = {3, 3, 3, 2, 2, 2};

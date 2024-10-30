@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.HashMap;
 
-public class Hash_4_의상 {
+public class _07_의상 {
     public int solution(String[][] clothes) {
         int answer = 1;
         HashMap<String, Integer> hashMap = new HashMap<>();
@@ -37,7 +37,7 @@ public class Hash_4_의상 {
     }
 
     public static void main(String[] args) {
-        Hash_4_의상 T = new Hash_4_의상();
+        _07_의상 T = new _07_의상();
         String[][] clothes1 = {
                 {"yellow_hat", "headgear"},
                 {"blue_sunglasses", "eyewear"},

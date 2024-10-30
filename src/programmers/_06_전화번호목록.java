@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.HashSet;
 
-public class Hash_3_전화번호목록 {
+public class _06_전화번호목록 {
     public boolean solution(String[] phone_book) {
         boolean answer = true;
 
@@ -24,7 +24,7 @@ public class Hash_3_전화번호목록 {
     }
 
     public static void main(String[] args) {
-        Hash_3_전화번호목록 T = new Hash_3_전화번호목록();
+        _06_전화번호목록 T = new _06_전화번호목록();
         String[] phone_book1 = {"119", "97674223", "1195524421"};
         String[] phone_book2 = {"123", "456", "789"};
         String[] phone_book3 = {"12", "123", "1235", "567", "88"};

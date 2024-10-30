@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.HashMap;
 
-public class Hash_2_완주하지못한선수 {
+public class _05_완주하지못한선수 {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
         HashMap<String, Integer> hashMap = new HashMap<>();
@@ -48,7 +48,7 @@ public class Hash_2_완주하지못한선수 {
     }
 
     public static void main(String[] args) {
-        Hash_2_완주하지못한선수 T = new Hash_2_완주하지못한선수();
+        _05_완주하지못한선수 T = new _05_완주하지못한선수();
         String[] participant = {"leo", "kiki", "eden"};
         String[] completion = {"eden", "kiki"};
 

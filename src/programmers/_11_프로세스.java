@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.*;
 
-public class StackQ_4_프로세스 {
+public class _11_프로세스 {
     public int solution(int[] priorities, int location) {
         int answer = 0;
         Queue<Integer> queue = new LinkedList<>();
@@ -39,7 +39,7 @@ public class StackQ_4_프로세스 {
     }
 
     public static void main(String[] args) {
-        StackQ_4_프로세스 T = new StackQ_4_프로세스();
+        _11_프로세스 T = new _11_프로세스();
         int[] priorities1 = {2, 1, 3, 2};
         int location1 = 2;
 

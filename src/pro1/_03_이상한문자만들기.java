@@ -43,6 +43,7 @@ public class _03_이상한문자만들기 {
 
         return answer.toString();
     }
+
     public static void main(String[] args) {
         _03_이상한문자만들기 T = new _03_이상한문자만들기();
         System.out.println(T.solution1("try hello world"));

@@ -1,7 +1,7 @@
 package pro1;
 
 public class _03_이상한문자만들기 {
-    public String solution(String s) {
+    public String solution1(String s) {
         String[] words = s.split(" ", -1);
         StringBuilder answer = new StringBuilder();
 
@@ -23,8 +23,29 @@ public class _03_이상한문자만들기 {
         return answer.toString();
     }
 
+    public String solution2(String s) {
+        StringBuilder answer = new StringBuilder();
+        boolean toUpper = true;
+
+        for (char x : s.toCharArray()) {
+            if (!Character.isAlphabetic(x)) {
+                answer.append(x);
+                toUpper = true;
+            } else {
+                if (toUpper) {
+                    answer.append(Character.toUpperCase(x));
+                } else {
+                    answer.append(Character.toLowerCase(x));
+                }
+                toUpper = !toUpper;
+            }
+        }
+
+        return answer.toString();
+    }
     public static void main(String[] args) {
         _03_이상한문자만들기 T = new _03_이상한문자만들기();
-        System.out.println(T.solution("try hello world"));
+        System.out.println(T.solution1("try hello world"));
+        System.out.println(T.solution2("try hello world"));
     }
 }

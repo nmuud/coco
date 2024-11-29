@@ -25,7 +25,6 @@ public class _14_그래프최단거리BFS {
                 }
             }
         }
-
     }
 
     public static void main(String[] args) {
